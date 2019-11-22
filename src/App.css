@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  background: center;
 }
 
 .App-header {
@@ -19,4 +19,13 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+
+.label {
+  font-family: 'Barlow', sans-serif;
+}
+
+.form_label {
+  font-family: 'Pacifico', cursive;
 }
