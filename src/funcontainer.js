@@ -7,18 +7,32 @@ import Familyfunform from './familyfunform.js'
 
 class Funcontainer extends Component {
     
+    state = {
+      textInput: ""
+    }
+
+controlledInput=(event)=>{
+  console.log(event.target.value)
+  let value = event.target.value
+  let name = event.target.name
+  this.setState({[name]: value })
+}
     render() {
         return (
             <div className="fun-container">
-      <header className="fun-container">
-        <img src={familyshot} className="App-logo" alt="logo" />
-        <p>
-          <div className="label" >Dadding is fun</div>
+            <header className="fun-container">
+            <img src={familyshot} className="App-logo" alt="logo" />
+            <p>
+              <div className="label" >Dadding is fun</div>
           
-         <form className="form">    < Familyfunform />     </form>
-        </p>
-      </header>
-    </div>
+                
+             <Familyfunform 
+             controlledInput={this.controlledInput}
+             textInput={this.state.textInput}/>
+
+            </p>
+            </header>
+            </div>
         )
     }
 }

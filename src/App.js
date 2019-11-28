@@ -3,7 +3,15 @@ import Funcontainer from './funcontainer.js'
 import './App.css';
 
 
-export default props => <div className="App">
-  < Funcontainer />
-</div>
-  
+class App extends React.Component {
+	render() {
+		return (
+		<div className="App">
+	  		<Funcontainer />
+		</div>
+	    )
+	}
+}
+
+export default App;
+	
