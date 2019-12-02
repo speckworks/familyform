@@ -2,27 +2,36 @@ import React, { Component } from 'react'
 import familyshot from './familyshot.png'
 import Familyfunform from './familyfunform.js'
 import Funactivities from './funactivities'
-
-
-
-
-class Funcontainer extends Component {
-    
+class Funcontainer extends Component {   
     render() {
+        const activitiesTransformed = this.props.activities.map(
+               (activity)=> {
+            return < Funactivities key={activity.id}
+            activity= {activity.name} />})
         return (
-    <div className="fun-container">
+    <div 
+    className="fun-container">
+        <header 
+        className="fun-container">
+        < Familyfunform 
+            handleSubmit={this.props.handleSubmit} 
+            />  
 
-        < Funactivities activities={this.props.activities} />
-           
-            
-        <header className="fun-container">
-            <img src={familyshot} className="familyshot" alt="john and Fam"/>
-            <div className="label" >Dadding is fun</div>
-            <div className="form">    < Familyfunform handleSubmit={this.props.handleSubmit} />  </div>
+            {activitiesTransformed}
+
+            <img src={familyshot} 
+            className="familyshot" 
+            alt="john and Fam"
+            />
+            <div className="label" >
+            Dadding is fun
+            </div>
+            <div className="form">    
+            </div>
         </header>
     </div>
         )
     }
 }
 
-export default Funcontainer
+export default Funcontainer;

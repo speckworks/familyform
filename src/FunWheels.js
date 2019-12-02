@@ -1,14 +1,13 @@
-import React, { Component } from 'react'
-
-
-
-
-const FunWheels = (props) => <button>
+import React from 'react';
+const FunWheels = (props) => (<button>
     <div>
-        {<li onClick={props.handleClick}
-        > 
-        🎡 {props.funwheels}</li>}
+        <span 
+        onClick={()=>props.handleClick(props.activity)}
+        role="img" 
+        aria-label="Ferris Wheel Emoji">
+        {`🎡`}
+        {props.funwheels}
+        </span>
     </div>
-    </button>
-
-export default FunWheels
+    </button>);
+export default FunWheels;

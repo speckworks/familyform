@@ -24,8 +24,10 @@
 
 .label {
   font-family: 'Barlow', sans-serif;
+  font-size: 28px;
 }
 
 .form_label {
   font-family: 'Pacifico', cursive;
+  font-size: 36px;
 }
