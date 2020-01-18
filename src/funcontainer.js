@@ -6,27 +6,23 @@ class Funcontainer extends Component {
     render() {
         const activitiesTransformed = this.props.activities.map(
                (activity)=> {
-            return < Funactivities key={activity.id}
-            activity= {activity.name} />})
+            return <Funactivities 
+                    className="activity"
+                    key={activity.id}
+                    activity= {activity.name} />})
         return (
-    <div 
-    className="fun-container">
-        <header 
-        className="fun-container">
-        < Familyfunform 
+    <div className="fun-container">
+        <header className="form">
+        <Familyfunform 
             handleSubmit={this.props.handleSubmit} 
             />  
-
             {activitiesTransformed}
-
             <img src={familyshot} 
             className="familyshot" 
             alt="john and Fam"
             />
             <div className="label" >
             Dadding is fun
-            </div>
-            <div className="form">    
             </div>
         </header>
     </div>

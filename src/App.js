@@ -25,8 +25,8 @@ export default class App extends Component {
   }
     render() {
     return (
-      <div>
-        < Funcontainer 
+      <div className="fun-container">
+        <Funcontainer 
         handleSubmit= {this.handleSubmit} 
         activities= {this.state.activities} 
         addActivity={this.addActivity} 

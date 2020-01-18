@@ -10,7 +10,8 @@ export default class Funactivities extends Component {
     }
     render() {
         const {activity} = this.props
-        return (<div>
+        return (<div
+            className="activity">
             {activity}
             <button onClick={this.handleClick}>
             <span role="img" aria-label="ferris wheel">🎡</span>{ this.state.funwheels }
