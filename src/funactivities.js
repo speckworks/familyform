@@ -13,7 +13,7 @@ export default class Funactivities extends Component {
         return (<div>
             {activity}
             <button onClick={this.handleClick}>
-            <span role="img">🎡</span>{ this.state.funwheels }
+            <span role="img" aria-label="ferris wheel">🎡</span>{ this.state.funwheels }
             </button>
             </div> 
         )
