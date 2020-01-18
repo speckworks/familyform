@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/familyform/static/css/main.974fc88c.chunk.css",
+    "main.js": "/familyform/static/js/main.a3b4b65a.chunk.js",
+    "main.js.map": "/familyform/static/js/main.a3b4b65a.chunk.js.map",
+    "runtime-main.js": "/familyform/static/js/runtime-main.aacb83a8.js",
+    "runtime-main.js.map": "/familyform/static/js/runtime-main.aacb83a8.js.map",
+    "static/js/2.812ecaba.chunk.js": "/familyform/static/js/2.812ecaba.chunk.js",
+    "static/js/2.812ecaba.chunk.js.map": "/familyform/static/js/2.812ecaba.chunk.js.map",
+    "index.html": "/familyform/index.html",
+    "precache-manifest.32c1d63c01d8cf2abb368fe35119beaf.js": "/familyform/precache-manifest.32c1d63c01d8cf2abb368fe35119beaf.js",
+    "service-worker.js": "/familyform/service-worker.js",
+    "static/css/main.974fc88c.chunk.css.map": "/familyform/static/css/main.974fc88c.chunk.css.map",
+    "static/media/familyshot.png": "/familyform/static/media/familyshot.a292be20.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aacb83a8.js",
+    "static/js/2.812ecaba.chunk.js",
+    "static/css/main.974fc88c.chunk.css",
+    "static/js/main.a3b4b65a.chunk.js"
+  ]
+}
