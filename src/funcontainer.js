@@ -15,7 +15,10 @@ class Funcontainer extends Component {
         <header className="form">
         <Familyfunform 
             handleSubmit={this.props.handleSubmit} 
-            />  
+            /> 
+             <>
+             List of Activities:
+            </>
             {activitiesTransformed}
             <img src={familyshot} 
             className="familyshot" 
