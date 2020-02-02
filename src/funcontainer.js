@@ -16,9 +16,10 @@ class Funcontainer extends Component {
         <Familyfunform 
             handleSubmit={this.props.handleSubmit} 
             /> 
-             <>
+             <fragment className="activity title">
+             <br></br>
              List of Activities:
-            </>
+            </fragment>
             {activitiesTransformed}
             <img src={familyshot} 
             className="familyshot" 

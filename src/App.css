@@ -8,6 +8,13 @@
   text-align:left;
 }
 
+.title{
+  font-size:24px;  
+  font-style:bold;
+  text-decoration: underline;
+}
+
+
 .App-logo {
   background: center;
 }
@@ -27,6 +34,9 @@
 .label {
   font-family: 'Barlow', sans-serif;
   font-size: 28px;
+  background-color: antiquewhite;
+  border-radius: 30px;
+  padding:10px;
 }
 
 .form_label {

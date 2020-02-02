@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 export default class Familyfunform extends Component {
 
     state = {
-        value: ''
+        value: 'enter activity'
     }
 
     handleChange = (event) => {
