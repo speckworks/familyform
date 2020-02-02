@@ -1,3 +1,7 @@
+This is a short Demo project I built, using a "controlled form" in React.js. One can add an activity to the activities list.  One can also increment the Ferris Wheels on the App (as though they were "likes"). 
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
