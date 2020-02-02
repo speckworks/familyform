@@ -1,0 +1,58 @@
+.App {
+  /* text-align: center; */
+}
+
+.activity{
+  display: block;
+  margin: 0px auto;
+  text-align:left;
+}
+
+.title{
+  font-size:24px;  
+  font-style:bold;
+  text-decoration: underline;
+}
+
+
+.App-logo {
+  background: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+
+.label {
+  font-family: 'Barlow', sans-serif;
+  font-size: 28px;
+  background-color: antiquewhite;
+  border-radius: 30px;
+  padding:10px;
+}
+
+.form_label {
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 36px;
+}
+
+.familyshot{
+  display:block;
+  margin: 0px auto;
+}
+.form{
+  text-align: center;
+  display:block;
+  margin: 0px auto;
+}
