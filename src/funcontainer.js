@@ -26,7 +26,7 @@ class Funcontainer extends Component {
             alt="john and Fam"
             />
             <div className="label" >
-            Dadding is fun
+            {/* Dadding is fun */}
             </div>
         </header>
     </div>

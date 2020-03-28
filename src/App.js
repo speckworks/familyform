@@ -21,11 +21,11 @@ export default class App extends Component {
     this.setState({
       activities:[...this.state.activities, newActivity]
     })
-    // console.log(this.state.activities)
   }
     render() {
     return (
-      <div className="fun-container">
+      <div className="label dadding">
+      Dadding is Fun!
         <Funcontainer 
         handleSubmit= {this.handleSubmit} 
         activities= {this.state.activities} 
