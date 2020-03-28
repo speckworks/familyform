@@ -1,11 +1,12 @@
-.App {
-  /* text-align: center; */
-}
 
 .activity{
   display: block;
   margin: 0px auto;
   text-align:left;
+}
+
+.dadding{
+  text-align: center;
 }
 
 .title{
