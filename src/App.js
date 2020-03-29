@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Funcontainer from './funcontainer.js'
+import Weather from './weather.js'
 import './App.css';
 export default class App extends Component {
   state = {activities:
@@ -31,6 +32,7 @@ export default class App extends Component {
         activities= {this.state.activities} 
         addActivity={this.addActivity} 
         />
+        <Weather />
       </div>
     )
   }
