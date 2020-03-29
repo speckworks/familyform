@@ -13,6 +13,10 @@ class Funcontainer extends Component {
         return (
     <div className="fun-container">
         <header className="form">
+            <img src={familyshot} 
+            className="familyshot" 
+            alt="john and Fam"
+            />
         <Familyfunform 
             handleSubmit={this.props.handleSubmit} 
             /> 
@@ -21,10 +25,6 @@ class Funcontainer extends Component {
              List of Activities:
             </fragment>
             {activitiesTransformed}
-            <img src={familyshot} 
-            className="familyshot" 
-            alt="john and Fam"
-            />
             <div className="label" >
             {/* Dadding is fun */}
             </div>
