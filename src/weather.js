@@ -1,8 +1,7 @@
-import React, { Component, useState, useEffect } from 'react'
+import React, { Component, useState } from 'react'
 const Weather = () => {
     //display the weather
     const [count, setCount] = useState(0);
-
     return (
         <div>
           <div style={{width: "100px"}}>
@@ -12,7 +11,6 @@ const Weather = () => {
                   height="82" 
                   frameborder="0" 
                   scrolling="no">
-
           </iframe>
           <a style={{
                     margin: "-20px", 
