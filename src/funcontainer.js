@@ -26,7 +26,6 @@ class Funcontainer extends Component {
             </fragment>
             {activitiesTransformed}
             <div className="label" >
-            {/* Dadding is fun */}
             </div>
         </header>
     </div>
